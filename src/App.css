@@ -1,0 +1,46 @@
+/* App.css */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+  border: 2px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  background-color: #007bff;
+}
+
+.button-red {
+  background-color: #dc3545;
+}
+
+.button-gray {
+  background-color: #6c757d;
+}
